@@ -1,0 +1,7 @@
+@use "../abstracts/fonts" as f;
+@use "../abstracts/colors" as c;
+
+.card {
+   font-size: f.$font-size;
+   color: c.$blue-1;
+}

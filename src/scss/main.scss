@@ -1,0 +1,13 @@
+/*■■■■■■■■■■■■■■■■■■■■■ Imports */
+@use "abstracts/fonts" as f;
+@use "abstracts/colors" as c;
+@use "components/cards";
+
+/*■■■■■■■■■■■■■■■■■■■■■  */
+/*■■■■■■■■■■■■■■■■■■■■■ Main */
+p {
+   font-size: f.$font-size;
+   color: c.$blue-1;
+}
+
+/*■■■■■■■■■■■■■■■■■■■■■  */
