@@ -1,13 +1,12 @@
 /*■■■■■■■■■■■■■■■■■■■■■ Imports */
-@use "abstracts/fonts" as f;
-@use "abstracts/colors" as c;
-@use "components/cards";
+@use "abstracts/" as a;
+@use "components/" as c;
 
 /*■■■■■■■■■■■■■■■■■■■■■  */
 /*■■■■■■■■■■■■■■■■■■■■■ Main */
 p {
-   font-size: f.$font-size;
-   color: c.$blue-1;
+   font-size: a.$font-size;
+   color: a.$blue-1;
 }
 
 /*■■■■■■■■■■■■■■■■■■■■■  */
