@@ -7,7 +7,7 @@
    font-family: ubuntu, sans-serif;
 }
 body {
-   background: #222;
+   background: #444;
    color: #fff;
 }
 ul {
@@ -18,10 +18,42 @@ a {
    color: #fff;
 }
 
-/*■■■■■■■■■■■■■■■■■■■■■■ Blocks */
+/*■■■■■■■■■■■■■■■■■■■■■■  */
 main {
    max-width: 1000px;
    margin: 0 auto;
+   padding-top: 15px;
+}
+header {
+   box-shadow: 0 2px 2px rgba(#fff, 0.1);
+   padding: 8px 0;
+   nav {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+   }
+   ul {
+      display: flex;
+   }
+   li {
+      border-bottom: 1px solid rgba(#fff, 0.1);
+      margin-right: 5px;
+      &:last-child {
+         margin-right: 0;
+      }
+   }
+   .logo {
+      background: #383838;
+      border-bottom: none;
+   }
+   a {
+      display: block;
+      padding: 10px 15px;
+      &:hover {
+         background: #222;
+      }
+   }
 }
 
 /*■■■■■■■■■■■■■■■■■■■■■■  */
